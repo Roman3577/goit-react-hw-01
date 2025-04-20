@@ -1,0 +1,67 @@
+.profile-card {
+    width: 300px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    color: #000000;
+    overflow: hidden;
+}
+
+/* Верхня частина */
+.profile-card img {
+    width: 100px;
+    margin-top: 15px;
+   
+    border-radius: 50%;
+}
+
+
+.profile-card .username {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin: 15px 0 10px;
+    /* верхній 15, нижній 10 */
+}
+
+.profile-card .tag,
+.profile-card .location {
+    color: #808080;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/* Список */
+.stats-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-top: 1px solid #555555;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stats-list li {
+    flex: 1;
+    border-right: 1px solid #555555;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.stats-list li:last-child {
+    border-right: none;
+}
+
+.stats-list span {
+    display: block;
+    font-size: 14px;
+}
+
+.stats-list .number {
+    font-weight: 600;
+    font-size: 16px;
+}
