@@ -1,8 +1,10 @@
 import userData from '../userData.json';
 import friends from '../friends.json';
+import './App.css';
+import Profile from './Profile/Profile';
+import FriendList from './FriendList/FriendList';
 
-import Profile from './Profile.jsx';
-import FriendList from './FriendList.jsx';
+
 
 export default function App() {
   return (
